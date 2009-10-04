@@ -1,0 +1,17 @@
+README.txt
+setup.cfg
+setup.py
+kss/__init__.py
+kss.plugin.jit.egg-info/PKG-INFO
+kss.plugin.jit.egg-info/SOURCES.txt
+kss.plugin.jit.egg-info/dependency_links.txt
+kss.plugin.jit.egg-info/entry_points.txt
+kss.plugin.jit.egg-info/namespace_packages.txt
+kss.plugin.jit.egg-info/not-zip-safe
+kss.plugin.jit.egg-info/requires.txt
+kss.plugin.jit.egg-info/top_level.txt
+kss/plugin/__init__.py
+kss/plugin/jit/__init__.py
+kss/plugin/jit/demo/__init__.py
+kss/plugin/jit/demo/zopeconfig.py
+kss/plugin/jit/tests/__init__.py

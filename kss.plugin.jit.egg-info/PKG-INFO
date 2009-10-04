@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: kss.plugin.jit
+Version: devdev
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: GPL
+Description: 
+        
+Keywords: kss plugin
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Framework :: Zope2
+Classifier: Framework :: Zope3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
