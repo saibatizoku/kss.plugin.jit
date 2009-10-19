@@ -5,29 +5,29 @@
            >
 
   <!-- Set up the demo utility, needed for registration -->
-  <!-- utility
+  <utility
     name="jit"
     factory=".zopeconfig.KSSDemos"
     provides="kss.demo.interfaces.IKSSDemoResource"
     permission="zope.Public"
-    /-->
+    />
 
   <!-- Set up resources needed for the demo -->
-  <!-- browser:page
+  <browser:page
       for="kss.demo.interfaces.ISimpleContent"
       template="jit.pt"
       name="jit.html"
       permission="zope2.View"
-      /-->
+      />
 
   <browser:resource
     file="jit.kss"
     name="jit.kss"
     />
 
-  <!-- browser:resource
+  <browser:resource
     file="jit.css"
     name="jit.css"
-    /-->
+    />
 
 </configure>

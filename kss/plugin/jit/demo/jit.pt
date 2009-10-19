@@ -2,8 +2,8 @@
   <head>
     <!-- add your third party resources here -->
 
-    <!-- link rel="stylesheet" type="text/css"
-          tal:attributes="href string:${context/@@absolute_url}/++resource++jit.css"/-->
+    <link rel="stylesheet" type="text/css"
+          tal:attributes="href string:${context/@@absolute_url}/++resource++jit.css"/>
 
     <metal:header use-macro="context/@@header_macros/header_resources" />
 

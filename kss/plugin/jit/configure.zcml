@@ -7,18 +7,19 @@
   <!-- Including this configuration will activate this plugin inside zope. -->
   
   <!-- Include demo setup conditionally -->
-  <include zcml:condition="installed kss.demo" package=".demo" />
-  
+  <!--include zcml:condition="installed kss.demo" package=".demo" /-->
+
   <!-- Third party library dependencies -->
   
-  <!--
   <browser:resource
-      file="3rd_party/myfile.js"
-      name="myfile.js"
+      file="3rd_party/jit.js"
+      name="jit.js"
       />
-  -->
-  
-  <!-- Event types -->
+  <browser:resource
+      file="3rd_party/excanvas.js"
+      name="excanvas.js"
+      />
+ <!-- Event types -->
   
   <!--
   <kss:eventtype
@@ -29,15 +30,13 @@
   
   <!-- Client actions & commands -->
   
-  <!--
   <kss:action
-      name="jit-myaction"
-      jsfile="javascript/myfile.js"
+      name="jit-canvasinit"
+      jsfile="javascript/plugin.js"
       command_factory="selector"
       params_mandatory=""
       params_optional=""
       />
-  -->
   
   <!-- Command sets -->
 
